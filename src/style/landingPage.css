@@ -1,0 +1,80 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.myBG{
+    height: 100vh;
+    background: url(../assets/images/bg/main.jpg);
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.carouselIntro {
+    height: 100vh;
+}
+
+.carouselImage {
+    height: 100vh;
+}
+
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+    padding-bottom: 15rem !important;
+}
+
+.titleCarousel{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending {
+    height: auto;
+    background: url(../assets/images/bg/scifi.jpg);
+    background-size: cover;
+}
+
+.superhero {
+    height: auto;
+    background: url(../assets/images/bg/spiderman.jpg);
+    background-size: cover;
+}
+
+.movieImage{
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.movieWrapper{
+
+}
+
+.images{
+    height: 500px;
+}
