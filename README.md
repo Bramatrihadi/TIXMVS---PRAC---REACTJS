@@ -1,3 +1,6 @@
+# SIMPLE MOVIES WEBSITE USING REACTJS, REACT-BOOTSTRAP, AND TMDB API
+This project is for learning only
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
